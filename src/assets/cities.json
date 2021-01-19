@@ -1,0 +1,50 @@
+[
+    {
+        "cityName": "Hebron",
+        "radios": [
+            {
+                "1": "Al-khalil Radio",
+                "url": "https://shobiddak.com/radios/6"
+            },
+            {
+                "2": "Al-Rabia'h",
+                "url": "https://shobiddak.com/radios/35"
+            }
+        ]
+    },
+    {
+        "cityName": "Tolkarm",
+        "radios": [
+            {
+                "1": "Al-Fajr Radio",
+                "url": "https://shobiddak.com/radios/68"
+            },
+            {
+                "2": "Kol-Alnas Radio",
+                "url": "https://shobiddak.com/radios/43"
+            }
+        ]
+    },
+    {
+        "cityName": "Jenin",
+        "radios": [
+            {
+                "1": "Zain Radio",
+                "url": "https://shobiddak.com/radios/19"
+            }
+        ]
+    },
+    {
+        "cityName": "Jerusalem",
+        "radios": [
+            {
+                "1": "Yaboos Radio",
+                "url": "https://shobiddak.com/radios/67"
+            },
+            {
+                "2": "Hala Radio",
+                "url": "https://shobiddak.com/radios/54"
+            }
+        ]
+    }
+]
