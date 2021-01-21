@@ -3,11 +3,13 @@
         "cityName": "Hebron",
         "radios": [
             {
-                "1": "Al-khalil Radio",
+                "id": 1,
+                "staitonName": "Al-khalil Radio",
                 "url": "https://shobiddak.com/radios/6"
             },
             {
-                "2": "Al-Rabia'h",
+                "id": 2,
+                "staitonName": "Al-Rabia'h",
                 "url": "https://shobiddak.com/radios/35"
             }
         ]
@@ -16,11 +18,13 @@
         "cityName": "Tolkarm",
         "radios": [
             {
-                "1": "Al-Fajr Radio",
+                "id": 1,
+                "staitonName": "Al-Fajr Radio",
                 "url": "https://shobiddak.com/radios/68"
             },
             {
-                "2": "Kol-Alnas Radio",
+                "id": 2,
+                "staitonName": "Kol-Alnas Radio",
                 "url": "https://shobiddak.com/radios/43"
             }
         ]
@@ -29,7 +33,8 @@
         "cityName": "Jenin",
         "radios": [
             {
-                "1": "Zain Radio",
+                "id": 1,
+                "staitonName": "Zain Radio",
                 "url": "https://shobiddak.com/radios/19"
             }
         ]
@@ -38,11 +43,13 @@
         "cityName": "Jerusalem",
         "radios": [
             {
-                "1": "Yaboos Radio",
+                "id": 1,
+                "staitonName": "Yaboos Radio",
                 "url": "https://shobiddak.com/radios/67"
             },
             {
-                "2": "Hala Radio",
+                "id": 2,
+                "staitonName": "Hala Radio",
                 "url": "https://shobiddak.com/radios/54"
             }
         ]

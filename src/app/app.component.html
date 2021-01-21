@@ -5,7 +5,14 @@
 </ul> -->
 
 <div class="buttons">
-  <button *ngFor="let city of cities" class="btn btn-warning button">
+  <button *ngFor="let city of cities" class="btn btn-warning button" routerLink="./raidos">
     {{city.cityName}}
   </button>
 </div>
+
+
+<!-- <pre>
+  {{ (city | async) | json }}
+</pre>
+
+<button (click)="fetchData()" routerLink="raidos">get fata</button> -->

@@ -2,13 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 
 @Component({
-  selector: 'app-raidos',
+  selector: 'raidos',
   templateUrl: './raidos.component.html',
   styleUrls: ['./raidos.component.css']
 })
 export class RaidosComponent implements OnInit {
   cities: any;
   httpClient: any;
+
+  // citiesMap = () =>{
+  //   this.cities
+  // }
 
   constructor(private dataService: DataService) { }
 

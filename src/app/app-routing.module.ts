@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { RaidosComponent } from './raidos/raidos.component';
 
 const routes: Routes = [
-    {path:'news', component: RaidosComponent}
+    {path:'./raidos', component: RaidosComponent}
 ];
 
 @NgModule({
