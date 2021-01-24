@@ -1,18 +1,10 @@
-<!-- <ul>
-  <li *ngFor="let city of cities">
-    {{ city.cityName }}
-  </li>
-</ul> -->
 
-<div class="buttons">
-  <button *ngFor="let city of cities" class="btn btn-warning button" routerLink="./raidos">
-    {{city.cityName}}
-  </button>
+<div>
+  <h2>Palestine cities</h2>
+  <select (change)='radiosCity($event)' >
+      <option *ngFor='let city of cities' value="{{city.cityName}}">{{city.cityName}}</option>
+  </select>
+  <div *ngIf='city'>
+      <app-radios [radios]='city.radios'></app-radios>
+  </div>
 </div>
-
-
-<!-- <pre>
-  {{ (city | async) | json }}
-</pre>
-
-<button (click)="fetchData()" routerLink="raidos">get fata</button> -->

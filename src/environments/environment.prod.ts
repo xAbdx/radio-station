@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost:4200/assets/cities.json',
+  url: "http://www.json-generator.com/api/json/get/cgvmYLRdhK?indent=2"
 };

@@ -3,9 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: true,
-  apiUrl: 'http:/assets/cities.json'
-
+  production: false,
+  url: "http://www.json-generator.com/api/json/get/cgvmYLRdhK?indent=2"
 };
 
 /*

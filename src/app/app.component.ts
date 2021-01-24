@@ -1,31 +1,30 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from "@angular/common/http";
-import { environment } from './../environments/environment';
+import { Component } from '@angular/core';
+import { HttpReqService } from './http-req.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-  title = 'radio-Stations';
-  cities: any = [];
+export class AppComponent {
+  title = 'radio-Station';
+  constructor(private HttpReqService: HttpReqService) {}
+  cities: any;
+  cityObject: any;
   city: any;
-  http: any;
-  
-  constructor(private httpClient: HttpClient) {
-    console.log(environment.production); // Logs false for default environment
 
+  ngOnInit(): void {
+    this.HttpReqService.getCities().subscribe((data) => {
+      this.cityObject = data;
+      this.cities = this.cityObject;
+    });
   }
 
-  ngOnInit() {
-    this.httpClient.get("assets/cities.json").subscribe(cities => {
-      this.cities = cities;
-      console.log(cities);
-    })
-  }
-
-  fetchData() {
-    this.cities = this.http.get('/api/cities').map((cities: { json: any; }) => cities.json)
+  radiosCity(event: any) {
+    for (let i = 0; i < this.cities.length; i++) {
+      if (event.target.value == this.cities[i].cityName) {
+        this.city = this.cities[i];
+      }
+    }
   }
 }
